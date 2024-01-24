@@ -19,14 +19,14 @@ const config: HardhatUserConfig = {
 
     // test networks
     hardhat: {
-      chainId: 31337,
+      chainId: 0x6e6afc,
       gas: 12000000,
       blockGasLimit: 0x1fffffffffffff,
       allowUnlimitedContractSize: true
     },
 
     bsctest: {
-      url: "https://dimensional-magical-sun.bsc-testnet.discover.quiknode.pro/8d7ff025c5d4a1aa94bfcdf8a563bf156c120ca7/",
+      url: "https://froopyland.dymension.xyz/24/idolaunchpadrollapp_7236348-1/evmrpc",
       accounts: [process.env.TESTNET_PRIVATE_KEY || ''],
     },
 
